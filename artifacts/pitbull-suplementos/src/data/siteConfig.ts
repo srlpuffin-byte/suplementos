@@ -1,11 +1,18 @@
 export const siteConfig = {
   name: "Suplementos Point",
   displayName: "SUPLEMENTOS Y ACCESORIOS",
-  fullName: "Suplementos y Accesorios",
+  fullName: "Suplementos & Accesorios",
   tagline: "Impulsa tu rendimiento al máximo",
   brandLine: "Gold Nutrition",
   description:
     "Suplementos, accesorios y nutrición deportiva en Marcos Juárez y Leones, Córdoba. Chusmeá el catálogo por WhatsApp y recibí asesoramiento personalizado.",
+  bio: [
+    "Impulsa tu rendimiento al máximo",
+    "Chusmeá el catálogo en WhatsApp",
+    "San Martín 848 — MsJz.",
+    "Leones — @tipsysuplementos.ar",
+  ],
+  brands: ["Gold Nutrition", "ENA", "Star Nutrition", "DeporAr"],
   instagram: {
     url: "https://www.instagram.com/suplementospoint/",
     handle: "@suplementospoint",

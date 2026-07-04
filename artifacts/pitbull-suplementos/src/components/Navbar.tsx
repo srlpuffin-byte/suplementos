@@ -1,9 +1,8 @@
 import { Link, useLocation } from "wouter";
-import { PointLogo } from "@/components/PointLogo";
+import { BrandMark } from "@/components/BrandMark";
 import { Search, User, ShoppingCart, Menu } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
-import { siteConfig } from "@/data/siteConfig";
 
 export function Navbar() {
   const [location] = useLocation();
@@ -16,15 +15,11 @@ export function Navbar() {
   ];
 
   return (
-    <nav className="sticky top-0 z-50 w-full bg-black text-white h-[65px] flex items-center border-b border-zinc-800">
+    <nav className="sticky top-0 z-50 w-full bg-black text-white h-[72px] flex items-center border-b border-zinc-800">
       <div className="container mx-auto px-4 flex items-center justify-between">
-        <div className="flex items-center gap-8">
-          <Link href="/" className="flex items-center gap-3 cursor-pointer">
-            <PointLogo size={44} />
-            <span className="hidden sm:flex flex-col leading-none">
-              <span className="font-heading text-lg uppercase tracking-wide text-primary">{siteConfig.displayName}</span>
-              <span className="text-[10px] text-zinc-400 uppercase tracking-widest">{siteConfig.instagram.handle}</span>
-            </span>
+        <div className="flex items-center gap-6 lg:gap-10">
+          <Link href="/" className="cursor-pointer hover:opacity-95 transition-opacity">
+            <BrandMark logoSize={50} showTagline={false} />
           </Link>
           
           <div className="hidden md:flex items-center gap-6">
@@ -60,8 +55,9 @@ export function Navbar() {
                 <Menu className="w-6 h-6" />
               </Button>
             </SheetTrigger>
-            <SheetContent side="left" className="bg-black border-r-zinc-800 text-white p-6">
-              <div className="flex flex-col gap-6 mt-8">
+            <SheetContent side="left" className="bg-black border-r-zinc-800 text-white p-6 w-[280px]">
+              <BrandMark logoSize={56} className="mb-8" />
+              <div className="flex flex-col gap-6">
                 {navLinks.map((link) => (
                   <Link 
                     key={link.path} 

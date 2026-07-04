@@ -2,8 +2,7 @@ import { useState } from "react";
 import { useLocation } from "wouter";
 import { useAdminLogin } from "@workspace/api-client-react";
 import { useAdminToken } from "@/hooks/useAdminToken";
-import { PointLogo } from "@/components/PointLogo";
-import { siteConfig } from "@/data/siteConfig";
+import { BrandMark } from "@/components/BrandMark";
 import { useToast } from "@/hooks/use-toast";
 
 export default function AdminLogin() {
@@ -42,9 +41,8 @@ export default function AdminLogin() {
     <div className="min-h-screen bg-[#111111] flex items-center justify-center p-4">
       <div className="w-full max-w-md bg-[#1a1a1a] border border-[#333] rounded-sm shadow-2xl p-8">
         <div className="flex flex-col items-center mb-8">
-          <PointLogo size={64} className="mb-4" />
+          <BrandMark logoSize={72} stacked className="mb-4" />
           <h1 className="font-heading text-3xl text-white uppercase tracking-wider">Panel Administrativo</h1>
-          <p className="text-gray-400 text-sm mt-2">{siteConfig.name}</p>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-6">
