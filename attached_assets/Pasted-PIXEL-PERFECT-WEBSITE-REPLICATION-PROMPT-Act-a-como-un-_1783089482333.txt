@@ -1,0 +1,549 @@
+PIXEL PERFECT WEBSITE REPLICATION PROMPT
+
+Actúa como un desarrollador Senior Full Stack, UX/UI Engineer, Frontend Architect y Reverse Engineering Specialist.
+
+Tu objetivo es analizar una página web existente y reconstruirla desde cero con una réplica prácticamente idéntica tanto visual como funcionalmente.
+
+OBJETIVO
+
+Crear una copia Pixel Perfect de la web proporcionada.
+
+La réplica debe ser indistinguible del sitio original para un usuario común.
+
+No debes simplificar absolutamente nada.
+
+Debes reconstruir:
+
+* Diseño completo
+* Estructura HTML
+* CSS
+* Animaciones
+* JavaScript
+* Responsive Design
+* Componentes
+* Navegación
+* Formularios
+* Estados
+* Interacciones
+* Microanimaciones
+* Arquitectura
+* Flujo de usuario
+* Lógica de funcionamiento
+
+⸻
+
+ANÁLISIS INICIAL
+
+Antes de escribir una sola línea de código debes realizar un análisis completo de la página.
+
+Analiza:
+
+* Layout completo
+* Grid
+* Spacing
+* Tipografías
+* Variables de diseño
+* Paleta de colores
+* Iconografía
+* Assets
+* SVG
+* Sombras
+* Blur
+* Bordes
+* Bordes redondeados
+* Transparencias
+* Gradientes
+* Patrones
+* Responsive
+* Breakpoints
+* Orden visual
+* Z-index
+* Timing de animaciones
+
+Debes identificar la tecnología utilizada:
+
+* React
+* Next.js
+* Vue
+* Angular
+* Astro
+* Tailwind
+* Bootstrap
+* GSAP
+* Framer Motion
+* Three.js
+* React Three Fiber
+* WebGL
+* Canvas
+* CSS Modules
+* Styled Components
+* Shaders
+* Motion Libraries
+* APIs
+* CMS
+* Frameworks
+
+⸻
+
+INSPECCIÓN DEL DOM
+
+Reconstruye:
+
+* HTML semántico
+* Jerarquía exacta
+* Componentización
+* IDs
+* Clases
+* Estructura del DOM
+* Lazy Loading
+* Intersection Observers
+* Eventos
+* Estados
+
+⸻
+
+FRONTEND
+
+Replica exactamente:
+
+Todos los componentes
+
+Navbar
+
+Mega menú
+
+Dropdowns
+
+Hero
+
+Cards
+
+Botones
+
+Inputs
+
+Modales
+
+Tabs
+
+Acordeones
+
+Galerías
+
+Carruseles
+
+Footer
+
+Loader
+
+Preloader
+
+Cursor personalizado
+
+Hover
+
+Scroll
+
+Scroll Reveal
+
+Smooth Scroll
+
+Parallax
+
+Scroll Snap
+
+Mouse Interactions
+
+Pointer Events
+
+Animaciones SVG
+
+Animaciones CSS
+
+Animaciones JS
+
+Animaciones GSAP
+
+Animaciones Three.js
+
+Todos los efectos visuales
+
+⸻
+
+DISEÑO
+
+Debe coincidir:
+
+100% dimensiones
+
+100% márgenes
+
+100% padding
+
+100% tipografía
+
+100% pesos
+
+100% interlineado
+
+100% colores
+
+100% sombras
+
+100% transparencias
+
+100% degradados
+
+100% bordes
+
+100% radios
+
+100% espaciados
+
+100% posiciones
+
+100% responsive
+
+⸻
+
+RESPONSIVE
+
+Reconstruye cada breakpoint.
+
+Desktop
+
+Laptop
+
+Tablet Horizontal
+
+Tablet Vertical
+
+Mobile Large
+
+Mobile Medium
+
+Mobile Small
+
+Foldables
+
+No improvises.
+
+Debe comportarse exactamente igual.
+
+⸻
+
+ANIMACIONES
+
+Replica exactamente:
+
+Timing
+
+Duración
+
+Bezier
+
+Delay
+
+Scroll
+
+Hover
+
+Entrada
+
+Salida
+
+Loop
+
+Parallax
+
+Mouse Move
+
+Magnetic Buttons
+
+Reveal
+
+Morphing
+
+Fade
+
+Scale
+
+Rotate
+
+Translate
+
+Skew
+
+Blur
+
+3D Effects
+
+WebGL Effects
+
+Canvas Effects
+
+⸻
+
+LÓGICA
+
+Reconstruye toda la lógica.
+
+Navegación
+
+Estados
+
+Hooks
+
+Eventos
+
+Validaciones
+
+Carga dinámica
+
+Fetch
+
+APIs
+
+Storage
+
+Cookies
+
+Session
+
+Lazy Loading
+
+Infinite Scroll
+
+Filtros
+
+Buscadores
+
+Carritos
+
+Login
+
+Registro
+
+Paneles
+
+Dashboards
+
+CMS
+
+Cualquier interacción existente.
+
+⸻
+
+BACKEND
+
+Si la web utiliza backend debes recrearlo.
+
+Autenticación
+
+Base de datos
+
+CRUD
+
+Endpoints
+
+REST
+
+GraphQL
+
+Supabase
+
+Firebase
+
+Prisma
+
+Node.js
+
+Express
+
+Next API
+
+Cloud Functions
+
+WebSockets
+
+Emails
+
+Uploads
+
+Pagos
+
+Toda la lógica debe ser funcional.
+
+⸻
+
+SEO
+
+Replica:
+
+Meta Tags
+
+Open Graph
+
+Twitter Cards
+
+Schema
+
+Sitemap
+
+Robots
+
+Canonical
+
+Alt
+
+Titles
+
+Descriptions
+
+Performance
+
+Core Web Vitals
+
+⸻
+
+PERFORMANCE
+
+Optimiza:
+
+LCP
+
+CLS
+
+FID
+
+INP
+
+TTFB
+
+Lazy Loading
+
+Code Splitting
+
+Tree Shaking
+
+Image Optimization
+
+Prefetch
+
+Preload
+
+Caching
+
+⸻
+
+ACCESIBILIDAD
+
+Cumple WCAG AA.
+
+ARIA
+
+Keyboard Navigation
+
+Focus States
+
+Semantic HTML
+
+Contraste
+
+Screen Readers
+
+⸻
+
+CÓDIGO
+
+El proyecto debe estar completamente organizado.
+
+components/
+
+pages/
+
+hooks/
+
+contexts/
+
+services/
+
+utils/
+
+assets/
+
+styles/
+
+animations/
+
+config/
+
+types/
+
+api/
+
+middleware/
+
+lib/
+
+⸻
+
+TECNOLOGÍA
+
+Utiliza las tecnologías más modernas cuando sea posible:
+
+Next.js 15
+
+React 19
+
+TypeScript
+
+Tailwind CSS
+
+Framer Motion
+
+GSAP
+
+Three.js
+
+React Three Fiber
+
+Shadcn/UI
+
+Radix UI
+
+Lucide Icons
+
+TanStack Query
+
+Zod
+
+React Hook Form
+
+Prisma
+
+Supabase
+
+Node.js
+
+Vite (si corresponde)
+
+⸻
+
+RESULTADO ESPERADO
+
+El resultado final debe ser una réplica prácticamente indistinguible del sitio original.
+
+Si algún recurso no puede obtenerse (imágenes, fuentes o archivos privados), crea una versión visualmente idéntica utilizando recursos equivalentes.
+
+No simplifiques componentes.
+
+No elimines animaciones.
+
+No reemplaces funcionalidades.
+
+No hagas aproximaciones.
+
+Reconstruye absolutamente todo el comportamiento visible y funcional.
+
+Al finalizar, entrega un proyecto completamente funcional, listo para ejecutarse y desplegarse, con una estructura profesional, código limpio, reutilizable y bien documentado.

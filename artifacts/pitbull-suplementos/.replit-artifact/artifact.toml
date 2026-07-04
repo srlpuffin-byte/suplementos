@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "Suplementos Point"
+version = "1.0.0"
+id = "artifacts/pitbull-suplementos"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22992
+
+[services.development]
+run = "pnpm --filter @workspace/pitbull-suplementos run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/pitbull-suplementos", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/pitbull-suplementos/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22992"
+BASE_PATH = "/"
