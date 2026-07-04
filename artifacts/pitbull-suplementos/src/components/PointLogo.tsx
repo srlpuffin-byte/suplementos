@@ -18,8 +18,8 @@ export function PointLogo({ size = 52, className = "" }: PointLogoProps) {
         width={size}
         height={size}
         alt="Suplementos Point"
-        className="block h-auto w-full max-w-none object-contain drop-shadow-sm"
-        style={{ width: size, height: size }}
+        className="block h-auto w-full max-w-none object-contain drop-shadow-sm rounded-full"
+        style={{ width: size, height: size, objectFit: "cover" }}
         draggable={false}
         decoding="async"
       />
